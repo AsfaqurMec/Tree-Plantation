@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-
+import img from '../../assets/Vector (8).png'
 
 const Navbar = () => {
 
@@ -46,7 +46,7 @@ foundation</p>
                 <div className="navbar-end h-full">
                 
                 <div className="flex gap-4 h-full bg-[#49C70D] justify-center items-center px-6">
-        <h1 className="text-xl font-semibold px-2 py-2 rounded-md text-[#49C70D] bg-white ">M</h1>
+        <img src={img} alt="" />
     <p className="font-semibold text-base uppercase">+61300746746<br />
    <span className="text-sm">Call 24HR / 7Days</span></p>
 </div>
